@@ -2,7 +2,7 @@ const express = require('express');
 const multer = require('multer');
 const path = require('path');
 const { signup, login } = require('../Controllers/authController');
-const { signupValidation, loginValidation } = require('../Validators/authValidation');
+const { signupValidation, loginValidation } = require('../Middlewares/authValidation');
 const AuthRouter = express.Router();
 
 // Configure multer storage to store images in the 'uploads' directory
