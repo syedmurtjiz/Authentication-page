@@ -1,0 +1,94 @@
+body {
+  background: linear-gradient(135deg, #255b91, #06010a);
+
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 500px;
+  padding: 2rem;
+  background: linear-gradient(135deg, #2c3e50, #6a1b9a);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #e0e0e0;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #bbb;
+}
+
+input {
+  width: 95%;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  background: rgba(18, 18, 18, 0);}
+
+button {
+  padding: 1rem;
+  background-color: #4c9aff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3579e0;
+}
+
+span {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: #bbb;
+}
+
+span a {
+  color: #4c9aff;
+  text-decoration: none;
+}
+
+span a:hover {
+  text-decoration: underline;
+}
+
+.heading{
+  font-size: 3rem;
+  color: #6a1b9a;
+}
+
+.logout{
+  align-items: center;
+  width: 100%;
+  font-size: 2rem;
+  
+}
